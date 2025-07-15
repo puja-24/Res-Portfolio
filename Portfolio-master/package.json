@@ -50,5 +50,6 @@
   "description": "<h2 align=\"center\">\r   Portfolio Website - v2.0<br/>\r   <a href=\"\" target=\"_blank\">kaushiki</a>\r </h2>",
   "main": "index.js",
   "author": "Puja",
+  "homepage": ".",
   "license": "ISC"
 }
