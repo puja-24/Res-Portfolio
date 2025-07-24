@@ -11,6 +11,7 @@ import sahayak from "../../Assets/Projects/sahayak.png";
 import classImg from "../../Assets/Projects/class.png";
 import innoreva from "../../Assets/Projects/innoreva.png";
 import spotify from "../../Assets/Projects/spotify.png";
+import LifeXcel from "../../Assets/Projects/LifeXcel.png";
 
 
 function Projects() {
@@ -35,6 +36,18 @@ function Projects() {
               demoLink="https://drive.google.com/file/d/1pb_zNwqhHeY1JxzkSRDwZsOENe84f5Um/view"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={LifeXcel}
+              isBlog={false}
+              title="LifeXcel"
+              description="LifeXcel is an AI-powered blogging platform built with the MERN stack, enabling users to create, manage, and share inspiring content with ease through intelligent content generation and optimized image delivery."
+              ghLink="https://github.com/puja-24/LifeXcel.git"
+              demoLink="https://life-xcel-frontend.vercel.app/"
+            />
+           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
